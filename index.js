@@ -7,11 +7,13 @@ import adminRoute from "./routes/admin.js"
 import userRoute from "./routes/user.js"
 import itemRoute from "./routes/item.js"
 import orderRoute from "./routes/order.js"
+import path from "path"
 const app = express()
 
 const port = 5000
-
 app.use(express.static("./views"))
+app.use(express.static("./views/css"))
+app.use(express.static("./views/js"))
 app.use(express.json())
 app.use(bodyParser.json({limit:'30mb',extended:true}))
 app.use(bodyParser.urlencoded({limit:'30mb',extended:true}))
