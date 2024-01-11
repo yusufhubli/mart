@@ -3,9 +3,10 @@
     margin: 0;
     padding: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@300;400;500;600;700;900&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap'); */
 :root{
   --bg-green:#27D312;
   --text-green:#1BFF00;
@@ -16,7 +17,7 @@
   --black:#000000;
   --text-black:#727272;
   --shadow:#EDEDED;
-  --font:'Work Sans', sans-serif;
+  --font:'Roboto', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6,p,a,li,ul,ol,table,th,td,tr,span,div,button,b,small,main,article,section,input,label {
@@ -173,7 +174,7 @@ padding: 20px 35px;
       z-index: 2;
       display: flex;
       align-items: center;
-      justify-content: start;
+      justify-content: space-between;
       position: fixed;
   }
   .bar{
@@ -184,9 +185,12 @@ padding: 20px 35px;
       margin-left: 20%;
       align-items: center;
       justify-content: space-between;
-      width: 60%;
-      font-size: 13px;
-      font-weight: 500;
+      width: 35%;
+      font-size: 12px;
+      font-weight: 600;
+  }
+  .nav-item a:hover{
+    color: var(--white);
   }
 }
 

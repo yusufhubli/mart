@@ -36,7 +36,7 @@ const {name,city,state} =x.userId
                 <h4 class="heading">Order Details</h4>
                 <table class="order-table">
                     <tr class="order-tr"><td>OrderId</td><td class="gap">:</td><td>${_id}</td></tr>
-                    <tr class="order-tr"><td>Amount</td><td class="gap">:</td><td>${amount}</td></tr>
+                    <tr class="order-tr"><td>Amount</td><td class="gap">:</td><td>₹${amount}</td></tr>
                     <tr class="order-tr"><td>Payment</td><td class="gap">:</td><td>${payment}</td></tr>
                     <tr class="order-tr"><td>Order Date</td><td class="gap">:</td><td>${date}</td></tr>
                     <tr class="order-tr"><td>Order Status</td><td class="gap">:</td><td>Pending</td></tr>
@@ -47,10 +47,10 @@ const {name,city,state} =x.userId
                 <table class="order-table">
                     <tr class="order-tr"><td>Item Name</td><td class="gap">:</td><td>${items[0].itemName}</td></tr>
                     <tr class="order-tr"><td>Net Quantity </td><td class="gap">:</td><td>${items[0].itemQty}</td></tr>
-                    <tr class="order-tr"><td>Price</td><td class="gap">:</td><td>${items[0].price}</td></tr>
+                    <tr class="order-tr"><td>Price</td><td class="gap">:</td><td>₹${items[0].price}</td></tr>
                     <tr class="order-tr"><td>Category</td><td class="gap">:</td><td>${items[0].Category}</td></tr>
                     <tr class="order-tr"><td>Item Count</td><td class="gap">:</td><td>${items[0].itemCount}</td></tr>
-                    <tr class="order-tr"><td>Total Price</td><td class="gap">:</td><td>${items[0].totalPrice}</td></tr>
+                    <tr class="order-tr"><td>Total Price</td><td class="gap">:</td><td>₹${items[0].totalPrice}</td></tr>
                 </table>
             </div>
             <div class="user">
