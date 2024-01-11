@@ -1,0 +1,25 @@
+.user-container{
+    margin: 10px auto;
+    width: 97%;
+    height: 460px;
+    border: 1px solid var(--border);
+}
+table{
+    width: 100%;
+    font-size: 14px;
+
+}
+tr{
+    border-bottom: 1px solid var(--border);
+    font-weight:500;
+    text-align: center;
+    height: 70px;
+
+}
+.td{
+    padding-left: 15px;
+}
+.u-btn{
+    padding: 5px 10px;
+    font-size: 12px;
+}

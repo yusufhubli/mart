@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/item.css">
+</head>
+<body>
+    
+    <div id="navbar"></div>
+    <div class="popup">
+        <main class="pop">
+          <p>hello world from india</p>
+          <button class="pop-btn">Ok</button>
+        </main>
+    </div>
+    <div class="item-container">
+        <div class="category">
+            <header class="category-header flex-between">
+                <h4 class="cate-name">Categories</h4>
+                <div class="cate-btn flex-between">
+                    <button class="c-btn">Add</button>
+                    <button class="c-btn">Delete</button>
+                </div>
+            </header>
+            <div class="category-add flex-between">
+                <input class="add-input" type="text">
+                <button class="input-btn">Add</button>
+                <button class="input-btn">Cancel</button>
+            </div>
+            <ul class="cate-list">
+                
+            </ul>
+        </div>
+        <div class="items">
+            <header class="items-header flex-between">
+               <h4 id="title">Vegetables</h4>
+               <div class="flex-center">
+                <input type="search" class="items-srh" placeholder="Search">
+                <button style="padding: 5px 10px;font-size: 11px;margin-left: 10px;">Search</button>
+               </div>
+               
+               <div class="items-btn flex-between">
+                <button class="i-btn insert">Insert</button>
+                <div class="edit">
+                <button class="i-btn">Update</button>
+                <button class="i-btn">Delete</button>
+                </div>
+               </div>
+            </header>
+            <table id="table">
+                <div class="space"></div>
+                <tr class="tr">
+                    <td  class="td">1</td>
+                    <td class="td1"><img src="" alt="image"></td>
+                    <td class="td2">Tomato</td>
+                    <td class="td3">1kg</td>
+                    <td class="td4">Vegetables</td>
+                    <td class="td5">$50</td>
+                    <td class="td6"><input type="checkbox" name="" id="check"></td>
+                </tr>
+               
+            </table>
+        </div>
+    </div>
+    <script type="module" src="./js/item.js"></script>
+
+</body>
+</html>
